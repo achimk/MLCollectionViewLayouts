@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27537D741B2776F7001A64F2 /* MLAlignmentFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 27537D731B2776F7001A64F2 /* MLAlignmentFlowLayout.m */; };
 		2778E1461B27431800A388DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2778E1451B27431800A388DE /* main.m */; };
 		2778E1491B27431800A388DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2778E1481B27431800A388DE /* AppDelegate.m */; };
 		2778E1521B27431800A388DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2778E1501B27431800A388DE /* Main.storyboard */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27537D721B2776F7001A64F2 /* MLAlignmentFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAlignmentFlowLayout.h; sourceTree = "<group>"; };
+		27537D731B2776F7001A64F2 /* MLAlignmentFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAlignmentFlowLayout.m; sourceTree = "<group>"; };
 		2778E1401B27431800A388DE /* MLCollectionViewLayouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLCollectionViewLayouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2778E1441B27431800A388DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2778E1451B27431800A388DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -254,12 +257,14 @@
 		2778E1961B27465700A388DE /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				2778E18D1B27464300A388DE /* MLFlowLayout.h */,
+				2778E18E1B27464300A388DE /* MLFlowLayout.m */,
 				2778E1A01B274F9600A388DE /* MLItemFlowLayout.h */,
 				2778E1A11B274F9600A388DE /* MLItemFlowLayout.m */,
 				2778E19D1B274F8000A388DE /* MLUniformFlowLayout.h */,
 				2778E19E1B274F8000A388DE /* MLUniformFlowLayout.m */,
-				2778E18D1B27464300A388DE /* MLFlowLayout.h */,
-				2778E18E1B27464300A388DE /* MLFlowLayout.m */,
+				27537D721B2776F7001A64F2 /* MLAlignmentFlowLayout.h */,
+				27537D731B2776F7001A64F2 /* MLAlignmentFlowLayout.m */,
 			);
 			name = Layouts;
 			sourceTree = "<group>";
@@ -422,6 +427,7 @@
 				2778E1941B27464300A388DE /* MLTableViewCell.m in Sources */,
 				2778E1491B27431800A388DE /* AppDelegate.m in Sources */,
 				2778E1A81B2750A400A388DE /* MLCollectionReusableView.m in Sources */,
+				27537D741B2776F7001A64F2 /* MLAlignmentFlowLayout.m in Sources */,
 				2778E1921B27464300A388DE /* MLColorCollectionViewCell.m in Sources */,
 				2778E17A1B2745FA00A388DE /* MLCollectionViewController.m in Sources */,
 				2778E1461B27431800A388DE /* main.m in Sources */,

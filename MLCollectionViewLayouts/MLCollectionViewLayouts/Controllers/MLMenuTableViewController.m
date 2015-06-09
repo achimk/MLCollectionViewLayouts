@@ -11,10 +11,12 @@
 #import "MLTableViewCell.h"
 #import "MLFlowLayout.h"
 #import "MLUniformFlowLayout.h"
+#import "MLAlignmentFlowLayout.h"
 
 typedef NS_ENUM(NSUInteger, MLMenuItem) {
     MLMenuItemFlowLayout,
     MLMenuItemUniformFlowLayout,
+    MLMenuItemAlignmentFlowLayout,
     MLMenuItemCount
 };
 
@@ -55,6 +57,10 @@ typedef NS_ENUM(NSUInteger, MLMenuItem) {
             uniformFlowLayout.enableStickyHeader = YES;
             layout = uniformFlowLayout;
         } break;
+        case MLMenuItemAlignmentFlowLayout: {
+            MLAlignmentFlowLayout * alignmentFlowLayout = [[MLAlignmentFlowLayout alloc] init];
+            layout = alignmentFlowLayout;
+        } break;
     }
     
     if (layout) {
@@ -75,6 +81,9 @@ typedef NS_ENUM(NSUInteger, MLMenuItem) {
         } break;
         case MLMenuItemUniformFlowLayout: {
             cell.textLabel.text = @"Uniform Layout";
+        } break;
+        case MLMenuItemAlignmentFlowLayout: {
+            cell.textLabel.text = @"Alignment Layout";
         } break;
     }
     
